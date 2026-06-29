@@ -1,0 +1,200 @@
+[
+  {
+    "role": "user",
+    "content": "convert 100 EUR to USD"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "refusal": null,
+    "reasoning": null,
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "tool_convert_KY5DYhNiA37FphLvygiW",
+        "function": {
+          "name": "convert",
+          "arguments": "{\"from_currency\":\"EUR\",\"amount\":100,\"to_currency\":\"USD\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "tool_convert_KY5DYhNiA37FphLvygiW",
+    "name": "convert",
+    "content": "Error: Tool 'convert' not found."
+  },
+  {
+    "role": "assistant",
+    "content": "I am sorry, I cannot fulfill this request at the moment as the currency converter tool is unavailable.",
+    "refusal": null,
+    "reasoning": null
+  },
+  {
+    "role": "user",
+    "content": "convert 100 USD to INR"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "refusal": null,
+    "reasoning": null,
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "tool_currency_converter_jyVAJRGqBhawYC6w4V4D",
+        "function": {
+          "name": "currency_converter",
+          "arguments": "{\"to_currency\":\"INR\",\"amount\":100,\"from_currency\":\"USD\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "tool_currency_converter_jyVAJRGqBhawYC6w4V4D",
+    "name": "currency_converter",
+    "content": "100 USD = 9445.41 INR"
+  },
+  {
+    "role": "assistant",
+    "content": "100 USD is equal to 9445.41 INR.",
+    "refusal": null,
+    "reasoning": null
+  },
+  {
+    "role": "user",
+    "content": "convert 50 EUR to JPY"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "refusal": null,
+    "reasoning": null,
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "tool_currency_converter_3qQd8OU1ikL2UwUkSKoo",
+        "function": {
+          "name": "currency_converter",
+          "arguments": "{\"amount\":50,\"to_currency\":\"JPY\",\"from_currency\":\"EUR\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "tool_currency_converter_3qQd8OU1ikL2UwUkSKoo",
+    "name": "currency_converter",
+    "content": "50 EUR = 9210.61 JPY"
+  },
+  {
+    "role": "assistant",
+    "content": "50 EUR is equal to 9210.61 JPY.",
+    "refusal": null,
+    "reasoning": null
+  },
+  {
+    "role": "user",
+    "content": "Convert 1000 INR to USD"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "refusal": null,
+    "reasoning": null,
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "tool_currency_converter_AmZnVAUj7TmTiyuKYE5u",
+        "function": {
+          "name": "currency_converter",
+          "arguments": "{\"amount\":1000,\"from_currency\":\"INR\",\"to_currency\":\"USD\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "tool_currency_converter_AmZnVAUj7TmTiyuKYE5u",
+    "name": "currency_converter",
+    "content": "1000 INR = 10.59 USD"
+  },
+  {
+    "role": "assistant",
+    "content": "1000 INR is equal to 10.59 USD.",
+    "refusal": null,
+    "reasoning": null
+  },
+  {
+    "role": "user",
+    "content": "Convert 100 USD to INR"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "refusal": null,
+    "reasoning": null,
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "tool_currency_converter_9Ckec7aRRVnKhvmHJWKa",
+        "function": {
+          "name": "currency_converter",
+          "arguments": "{\"amount\":100,\"to_currency\":\"INR\",\"from_currency\":\"USD\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "tool_currency_converter_9Ckec7aRRVnKhvmHJWKa",
+    "name": "currency_converter",
+    "content": "100 USD = 9445.41 INR"
+  },
+  {
+    "role": "assistant",
+    "content": "100 USD is equal to 9445.41 INR.",
+    "refusal": null,
+    "reasoning": null
+  },
+  {
+    "role": "user",
+    "content": "Convert to 100 INR to USD"
+  },
+  {
+    "role": "assistant",
+    "content": null,
+    "refusal": null,
+    "reasoning": null,
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "tool_currency_converter_VOqcWhUz978mvy84U6SS",
+        "function": {
+          "name": "currency_converter",
+          "arguments": "{\"from_currency\":\"INR\",\"amount\":100,\"to_currency\":\"USD\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "tool_currency_converter_VOqcWhUz978mvy84U6SS",
+    "name": "currency_converter",
+    "content": "100 INR = 1.06 USD"
+  },
+  {
+    "role": "assistant",
+    "content": "100 INR is equal to 1.06 USD.",
+    "refusal": null,
+    "reasoning": null
+  }
+]
